@@ -1,0 +1,99 @@
+.main {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.disable {
+  display: none;
+}
+
+#Image {
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.main h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  user-select: none;
+}
+
+#Ps5 {
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  height: 75vh;
+  animation: ps5;
+  animation-duration: 2s;
+}
+@keyframes ps5 {
+  0% {
+    transform: rotate(1turn);
+    position: absolute;
+    right: -500px;
+    top: 20px;
+  }
+  100% {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
+}
+
+#Ps5Blue {
+  position: absolute;
+  right: 50px;
+  top: 71px;
+  height: 57vh;
+  animation: ps5Blue;
+  animation-duration: 2s;
+}
+@keyframes ps5Blue {
+  0% {
+    transform: rotate(1turn);
+    position: absolute;
+    right: -500px;
+    top: 71px;
+  }
+  100% {
+    position: absolute;
+    right: 50px;
+    top: 71px;
+  }
+}
+
+.bg-Container-light {
+  background-color: #d1d6fd;
+  width: 500px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.bg-Container-dark {
+  background-color: black;
+  width: 500px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#BeforeOne {
+  position: absolute;
+  left: 40px;
+  top: 200px;
+}
+
+#AfterOne {
+  position: absolute;
+  left: 590px;
+  top: 200px;
+}

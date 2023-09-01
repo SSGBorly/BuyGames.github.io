@@ -1,0 +1,51 @@
+.GInfo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.GInfo-container img {
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+a {
+  font-size: 1rem;
+  width: 250px;
+  background-color: #ee9b00;
+  padding: 3px 3px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+#Gameinfo h1 {
+  font-size: 1.7rem;
+}
+
+#Gameinfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#Buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cart {
+  position: relative;
+  left: 90px;
+}
+
+#Close {
+  position: relative;
+  left: 250px;
+  top: -40px;
+}

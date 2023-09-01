@@ -1,0 +1,64 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1427;
+  width: 100vw;
+  height: 8vh;
+  z-index: 999;
+}
+
+.container span {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+#logoName2 {
+  color: #ee9b00;
+}
+
+.Toggle-Container {
+  position: relative;
+  margin-left: 600px;
+  background-color: #fff;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Toggle-Light {
+  position: relative;
+  margin-left: 600px;
+  background-color: #3a86ff;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Toggle-Switcher {
+  position: absolute;
+  top: 1.5px;
+  left: 2.5px;
+  background-color: #1e1427;
+  width: 30px;
+  height: 27px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+.Toggle-Switcher-Moved {
+  position: absolute;
+  top: 1.5px;
+  left: 36px;
+  background-color: #1e1427;
+  width: 30px;
+  height: 27px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+.icon {
+  margin-left: 40px;
+}

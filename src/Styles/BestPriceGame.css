@@ -1,0 +1,34 @@
+.BestContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.ImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.ImageContainer img {
+  width: 140px;
+  height: 180px;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+
+.ImageContainer img:hover {
+  cursor: pointer;
+  width: 160px;
+  height: 200px;
+  transition: 0.7s;
+}
+
+#textlight {
+  color: #2a9d8f;
+}
+
+#textDrak {
+  color: #ee9b00;
+}
